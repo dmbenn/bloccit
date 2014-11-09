@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   has_many :posts
 
   def admin?
-    rold == 'admin'
+    role == 'admin'
   end
 
   def moderator?
