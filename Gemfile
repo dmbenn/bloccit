@@ -19,6 +19,8 @@ gem 'devise'
 gem 'figaro', '1.0'
 gem 'pundit'
 
+gem 'redcarpet'
+
 gem 'simple_form'
 
 # Use SCSS for stylesheets
