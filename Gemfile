@@ -19,9 +19,14 @@ gem 'devise'
 gem 'figaro', '1.0'
 gem 'pundit'
 
+<<<<<<< HEAD
 gem 'redcarpet'
 
 gem 'simple_form'
+=======
+gem 'simple_form', git: 'git@github.com:plataformatec/simple_form.git', ref: '1be4d64ce16d29c316e2d6c297ed7be248126057'
+
+>>>>>>> 0a3ff88fabb7cadfd2cf4b084433076256c961c0
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
