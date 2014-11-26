@@ -2,8 +2,6 @@ module ApplicationHelper
   def my_name
     "Dan Bennett"
   end
-<<<<<<< HEAD
-=======
 
   def markdown(text)
     renderer = Redcarpet::Render::HTML.new
@@ -12,5 +10,4 @@ module ApplicationHelper
     (redcarpet.render text).html_safe
   end
   
->>>>>>> uploading-images
 end
