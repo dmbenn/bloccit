@@ -19,8 +19,20 @@ gem 'devise'
 gem 'figaro', '1.0'
 gem 'pundit'
 
+<<<<<<< HEAD
 gem 'simple_form'
 
+=======
+gem 'redcarpet'
+
+gem 'simple_form'
+
+gem 'carrierwave'
+gem 'mini_magick'
+
+gem 'fog'
+
+>>>>>>> uploading-images
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
