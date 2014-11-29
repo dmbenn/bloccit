@@ -1,0 +1,11 @@
+<div class = "container-fluid">
+  <div class = "row" >
+    <div class = "col-md-12" >
+      <% comments.each_with_index do |comment, index| %>
+        <p>
+          <%=index + 1 %>.  <%= comment.body %>
+        </p>
+      <% end %>
+    </div>
+  </div>
+</div>
