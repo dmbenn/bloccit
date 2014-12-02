@@ -1,11 +1,14 @@
-<div class = "container-fluid">
-  <div class = "row" >
-    <div class = "col-md-12" >
-      <% comments.each_with_index do |comment, index| %>
-        <p>
-          <%=index + 1 %>.  <%= comment.body %>
-        </p>
+<div class="media">
+  <%= link_to '#', class: 'pull-left' do %>
+    <%= image_tag(comment.user.avatar.small.url) if comment.user.avatar? %>
+  <% end %>
+  <div class="media-body">
+    <small>
+      <%= comment.user.name %> commented <%= time_ago_in_words(comment.created_at) %> ago
+      <% if policy(comment).destroy? %>
+        | <%= link_to "Delete", [@topic, @post, comment], method: :delete %>
       <% end %>
-    </div>
+    </small>
+    <p><%= comment.body %></p>
   </div>
 </div>
