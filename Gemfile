@@ -17,7 +17,7 @@ group :test do
   gem 'rspec-rails', '~> 3.1.0'
 end
 
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass', '~> 3.3.1'
 gem 'faker'
 gem 'devise'
 gem 'figaro', '1.0'

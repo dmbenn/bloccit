@@ -12,6 +12,7 @@
  *= require_tree .
  */
 
+ @import "bootstrap-sprockets";
  @import "bootstrap";
 
  .user-info {
@@ -20,5 +21,10 @@
 
  .nav {
   margin-top: 5px;
+ }
+
+ .vote-arrows {
+  width: 40px;
+  text-align: center;
  }
 
