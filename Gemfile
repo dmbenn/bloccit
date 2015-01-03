@@ -33,6 +33,8 @@ gem 'mini_magick'
 
 gem 'fog'
 
+gem 'newrelic_rpm'
+
 # paginate for pagination
 gem 'will_paginate', '~> 3.0.5'
 
